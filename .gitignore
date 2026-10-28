@@ -1,0 +1,101 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Data Files
+# ==============================
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.jsonl
+
+# ==============================
+# Machine Learning Models
+# ==============================
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# ==============================
+# Forecast Outputs & Reports
+# ==============================
+reports/generated/
+outputs/
+predictions/
+forecast_results/
+*.log
+
+# ==============================
+# IDEs & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Testing & Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Experiment Tracking
+# ==============================
+mlruns/
+wandb/
+lightning_logs/
